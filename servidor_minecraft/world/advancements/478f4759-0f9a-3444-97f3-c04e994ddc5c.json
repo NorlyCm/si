@@ -1745,6 +1745,7 @@
       "minecraft:grove": "2024-11-21 20:10:05 +0000",
       "minecraft:cold_ocean": "2024-11-19 00:32:24 +0000",
       "minecraft:forest": "2024-11-19 00:30:04 +0000",
+      "minecraft:lush_caves": "2024-12-16 22:01:35 +0000",
       "minecraft:deep_cold_ocean": "2024-11-22 19:40:06 +0000",
       "minecraft:desert": "2024-11-22 20:43:08 +0000",
       "minecraft:deep_frozen_ocean": "2024-12-12 20:14:59 +0000",
@@ -12445,6 +12446,12 @@
   "crabbersdelight:recipes/building_blocks/crab_barrel": {
     "criteria": {
       "has_crab": "2024-12-16 21:35:41 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2024-12-16 21:51:40 +0000"
     },
     "done": true
   },
