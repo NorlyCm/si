@@ -3841,3 +3841,13 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [16Dec2024 22:21:55.882] [Worker-Main-56/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=23, y=38, z=-4}
 [16Dec2024 22:21:55.882] [Worker-Main-56/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=28, y=38, z=-1}
 [16Dec2024 22:21:55.882] [Worker-Main-56/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=26, y=38, z=-1}
+[16Dec2024 22:22:49.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace has made the advancement [What a Deal!]
+[16Dec2024 22:24:46.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 0.0,17.985428395389448,0.0
+[16Dec2024 22:25:16.934] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 3.103865310346009,14.314804005303543,-5.178889262090877
+[16Dec2024 22:25:25.534] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! -0.08645191621599224,10.392387983558038,-0.7419723834524348
+[16Dec2024 22:25:26.751] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! -0.3002596839569378,-10.221069856431754,-1.479625860616693
+[16Dec2024 22:25:46.899] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 0.9401067814651469,10.560051441066605,-2.480456025455652
+[16Dec2024 22:27:27.744] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! -0.1563291063248471,-10.86562279634552,0.38056401912089655
+[16Dec2024 22:27:47.384] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! -1.1988050307490994,-11.633535685316616,1.7244365237282295
+[16Dec2024 22:29:29.058] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace lost connection: Disconnected
+[16Dec2024 22:29:29.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace left the game
