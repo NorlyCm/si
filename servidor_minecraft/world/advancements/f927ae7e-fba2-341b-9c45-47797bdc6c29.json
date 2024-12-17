@@ -18938,5 +18938,17 @@
     },
     "done": true
   },
+  "create_connected:recipes/crafting/palettes/copycat_fence_compat": {
+    "criteria": {
+      "has_item": "2024-12-17 19:37:55 +0000"
+    },
+    "done": true
+  },
+  "create_connected:recipes/crafting/palettes/copycat_wall_compat": {
+    "criteria": {
+      "has_item": "2024-12-17 19:37:53 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
