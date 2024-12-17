@@ -7837,7 +7837,8 @@
   "betterdungeons:all_dungeons": {
     "criteria": {
       "in_better_zombie_dungeon": "2024-11-24 01:48:48 +0000",
-      "in_better_monster_room": "2024-12-03 20:14:14 +0000"
+      "in_better_monster_room": "2024-12-03 20:14:14 +0000",
+      "in_better_skeleton_dungeon": "2024-12-17 15:50:41 +0000"
     },
     "done": false
   },
@@ -12634,6 +12635,54 @@
       "mushroom_rice": "2024-12-17 10:32:20 +0000"
     },
     "done": false
+  },
+  "betterdungeons:skeleton_dungeon": {
+    "criteria": {
+      "in_better_skeleton_dungeon": "2024-12-17 15:50:41 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_helmet_repairing": {
+    "criteria": {
+      "has_golden_helmet": "2024-12-17 15:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-12-17 15:44:01 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rocky_shell": {
+    "criteria": {
+      "soul_heart": "2024-12-17 15:48:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-12-17 15:44:01 +0000"
+    },
+    "done": true
+  },
+  "creategoggles:recipes/goggle_golden_helmet": {
+    "criteria": {
+      "has_helmet": "2024-12-17 15:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-12-17 15:44:01 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rocky_roller": {
+    "criteria": {
+      "killed_by": "2024-12-17 15:47:58 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
