@@ -3316,3 +3316,9 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [17Dec2024 20:27:22.617] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 10.578070918645508,-2.446947937232963,0.753230529857774
 [17Dec2024 20:59:46.649] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace lost connection: Timed out
 [17Dec2024 20:59:46.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace left the game
+[17Dec2024 21:20:13.371] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CupcakeSpace[/172.26.14.178:51214] logged in with entity id 26789 at (233.36047131294623, 73.0, 430.54221012240777)
+[17Dec2024 21:20:13.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace joined the game
+[17Dec2024 21:20:13.627] [Server thread/INFO] [Jade/]: Syncing config to CupcakeSpace (f927ae7e-fba2-341b-9c45-47797bdc6c29)
+[17Dec2024 21:21:02.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! -10.077124510719699,3.6292348082512262,-0.9030127009220337
+[17Dec2024 21:22:06.601] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 2.7645645726740327,1.8967462985095835,-9.583904444178359
+[17Dec2024 21:22:13.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 8.522315900392698,-4.115586600024102,-4.315412878208974
