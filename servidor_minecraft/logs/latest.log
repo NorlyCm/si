@@ -3314,3 +3314,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [17Dec2024 20:16:32.006] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 10.381835455074906,0.3318301324223114,-1.9783202664602868
 [17Dec2024 20:27:15.906] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 9.002861842200858,3.374943582345921,3.8529306376289014
 [17Dec2024 20:27:22.617] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 10.578070918645508,-2.446947937232963,0.753230529857774
+[17Dec2024 20:59:46.649] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace lost connection: Timed out
+[17Dec2024 20:59:46.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace left the game
