@@ -3291,3 +3291,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [18Dec2024 18:11:50.316] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2147ms or 42 ticks behind
 [18Dec2024 18:17:16.569] [Server thread/INFO] [com.simibubi.create.Create/]: New Schematic Uploaded: CupcakeSpace/uberswe_day_1_starter_house.nbt
 [18Dec2024 18:18:07.345] [Server thread/INFO] [com.simibubi.create.Create/]: New Schematic Uploaded: CupcakeSpace/fluid_warehouse.nbt
+[18Dec2024 18:42:40.098] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace lost connection: Timed out
+[18Dec2024 18:42:40.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace left the game
