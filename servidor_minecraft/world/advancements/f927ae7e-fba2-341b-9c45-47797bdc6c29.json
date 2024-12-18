@@ -19166,5 +19166,29 @@
     },
     "done": true
   },
+  "createdeco:recipes/decorations/brown_placard_from_dyeing": {
+    "criteria": {
+      "has_item": "2024-12-18 22:42:06 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/light_gray_placard_from_dyeing": {
+    "criteria": {
+      "has_item": "2024-12-18 22:42:06 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/cyan_placard_from_dyeing": {
+    "criteria": {
+      "has_item": "2024-12-18 22:42:06 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/green_placard_from_dyeing": {
+    "criteria": {
+      "has_item": "2024-12-18 22:42:06 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
