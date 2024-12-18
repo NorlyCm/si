@@ -3297,3 +3297,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [18Dec2024 18:46:01.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace joined the game
 [18Dec2024 18:46:01.447] [Server thread/INFO] [Jade/]: Syncing config to CupcakeSpace (f927ae7e-fba2-341b-9c45-47797bdc6c29)
 [18Dec2024 18:52:54.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CupcakeSpace: Set own game mode to Survival Mode]
+[18Dec2024 18:56:01.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace has made the advancement [Alex's Mobs]
+[18Dec2024 18:58:23.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CupcakeSpace: Set own game mode to Creative Mode]
