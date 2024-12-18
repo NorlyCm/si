@@ -3298,3 +3298,30 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [18Dec2024 02:52:45.454] [Server thread/INFO] [com.simibubi.create.Create/]: New Schematic Uploaded: CupcakeSpace/apartment_house_4f.nbt
 [18Dec2024 02:52:59.408] [Server thread/INFO] [com.simibubi.create.Create/]: New Schematic Uploaded: CupcakeSpace/starter_base_factory.nbt
 [18Dec2024 02:54:21.445] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[18Dec2024 03:00:15.644] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace lost connection: Timed out
+[18Dec2024 03:00:15.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace left the game
+[18Dec2024 03:00:33.203] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CupcakeSpace[/172.26.14.178:54669] logged in with entity id 2043 at (10247.632666615724, 70.0, 2961.7700934343534)
+[18Dec2024 03:00:33.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace joined the game
+[18Dec2024 03:00:33.346] [Server thread/INFO] [Jade/]: Syncing config to CupcakeSpace (f927ae7e-fba2-341b-9c45-47797bdc6c29)
+[18Dec2024 03:04:02.195] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-150, y=76, z=135}
+[18Dec2024 03:04:02.196] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-150, y=72, z=135}
+[18Dec2024 03:04:02.197] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-150, y=68, z=135}
+[18Dec2024 03:04:02.197] [Server thread/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-150, y=80, z=135}
+[18Dec2024 03:04:02.204] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10248, 68, 3000
+[18Dec2024 03:04:02.204] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10250, 68, 3000
+[18Dec2024 03:04:02.205] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10249, 68, 2999
+[18Dec2024 03:04:02.205] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10249, 68, 3001
+[18Dec2024 03:04:02.205] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10249, 67, 3000
+[18Dec2024 03:04:02.206] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10249, 69, 3000
+[18Dec2024 03:04:02.207] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10257, 68, 3000
+[18Dec2024 03:04:02.208] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10259, 68, 3000
+[18Dec2024 03:04:02.208] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10258, 68, 2999
+[18Dec2024 03:04:02.208] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10258, 68, 3001
+[18Dec2024 03:04:02.208] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10258, 67, 3000
+[18Dec2024 03:04:02.209] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10258, 69, 3000
+[18Dec2024 03:04:02.221] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10254, 86, 3003
+[18Dec2024 03:04:02.221] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10256, 86, 3003
+[18Dec2024 03:04:02.222] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10255, 86, 3002
+[18Dec2024 03:04:02.222] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10255, 86, 3004
+[18Dec2024 03:04:02.222] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10255, 85, 3003
+[18Dec2024 03:04:02.223] [Server thread/ERROR] [net.minecraft.world.level.redstone.CollectingNeighborUpdater/]: Too many chained neighbor updates. Skipping the rest. First skipped position: 10255, 87, 3003
