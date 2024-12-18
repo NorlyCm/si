@@ -3288,3 +3288,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [18Dec2024 20:39:07.820] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
 [18Dec2024 20:39:31.665] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8861ms or 177 ticks behind
 [18Dec2024 21:33:26.147] [Server thread/INFO] [com.simibubi.create.Create/]: New Schematic Uploaded: CupcakeSpace/vias_tren.nbt
+[18Dec2024 21:41:57.682] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DannBear1024[/172.26.26.36:53135] logged in with entity id 11636 at (-286.8731793323059, 69.0, 180.23357294943884)
+[18Dec2024 21:41:57.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DannBear1024 joined the game
+[18Dec2024 21:41:57.969] [Server thread/INFO] [Jade/]: Syncing config to DannBear1024 (dadd4465-de9a-3abd-91e5-7d901da475f9)
+[18Dec2024 21:42:00.346] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2091ms or 41 ticks behind
