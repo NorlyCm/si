@@ -3310,3 +3310,12 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [19Dec2024 22:58:30.837] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7743ms or 154 ticks behind
 [19Dec2024 22:58:50.406] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4612ms or 92 ticks behind
 [19Dec2024 22:59:08.583] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3188ms or 63 ticks behind
+[19Dec2024 23:08:04.731] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace lost connection: Disconnected
+[19Dec2024 23:08:04.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace left the game
+[19Dec2024 23:08:20.558] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CupcakeSpace[/172.26.14.178:60334] logged in with entity id 14623 at (10347.5, 67.91249999552966, 2970.5)
+[19Dec2024 23:08:20.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace joined the game
+[19Dec2024 23:08:21.059] [Server thread/INFO] [Jade/]: Syncing config to CupcakeSpace (f927ae7e-fba2-341b-9c45-47797bdc6c29)
+[19Dec2024 23:08:23.475] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
+[19Dec2024 23:12:42.839] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! -4.709224695547901,-0.41999998688697815,8.990238656397842
+[19Dec2024 23:12:42.873] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3029ms or 60 ticks behind
+[19Dec2024 23:13:57.366] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
