@@ -12719,5 +12719,149 @@
     },
     "done": true
   },
+  "create_dd:recipes/create_dd.palettes/small_amethyst_block_brick_wall_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/cut_amethyst_block_wall_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/cut_amethyst_block_stairs_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/cut_amethyst_block_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/polished_cut_amethyst_block_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/amethyst_block_pillar_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "crabbersdelight:recipes/building_blocks/cod_barrel": {
+    "criteria": {
+      "has_cod": "2024-12-19 15:58:48 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/polished_cut_amethyst_block_wall_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/ocelot": {
+    "criteria": {
+      "has_cod": "2024-12-19 15:58:48 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/polished_cut_amethyst_block_stairs_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/layered_amethyst_block_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/cut_amethyst_block_brick_stairs_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-12-19 15:58:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-12-19 15:58:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-12-19 15:58:48 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/cut_amethyst_block_brick_wall_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/building_blocks/amethyst_block_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/cut_amethyst_block_bricks_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/small_amethyst_block_bricks_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/cut_amethyst_block_brick_slab_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/cut_amethyst_block_slab_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/small_amethyst_block_brick_slab_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/polished_cut_amethyst_block_slab_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.palettes/small_amethyst_block_brick_stairs_from_stone_types_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
