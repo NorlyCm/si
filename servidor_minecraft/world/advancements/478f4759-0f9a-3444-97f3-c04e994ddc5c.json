@@ -12691,6 +12691,18 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/decorations/spruce_cabinet": {
+    "criteria": {
+      "has_spruce_trapdoor": "2024-12-19 14:44:15 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/dark_oak_banister": {
+    "criteria": {
+      "has_item": "2024-12-19 14:44:09 +0000"
+    },
+    "done": true
+  },
   "takesapillage:bastille": {
     "criteria": {
       "in_bastille": "2024-12-19 14:36:59 +0000"
