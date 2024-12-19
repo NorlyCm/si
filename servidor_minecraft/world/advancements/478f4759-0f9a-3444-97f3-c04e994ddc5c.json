@@ -1724,6 +1724,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2024-12-03 21:18:26 +0000",
+      "minecraft:old_growth_pine_taiga": "2024-12-19 15:20:53 +0000",
       "minecraft:taiga": "2024-12-10 16:35:35 +0000",
       "minecraft:deep_ocean": "2024-11-22 19:40:46 +0000",
       "minecraft:eroded_badlands": "2024-11-22 19:47:29 +0000",
@@ -1750,6 +1751,7 @@
       "minecraft:deep_frozen_ocean": "2024-12-12 20:14:59 +0000",
       "minecraft:ocean": "2024-11-19 00:34:07 +0000",
       "minecraft:jungle": "2024-11-25 23:50:40 +0000",
+      "minecraft:old_growth_spruce_taiga": "2024-12-19 15:22:56 +0000",
       "minecraft:windswept_savanna": "2024-11-25 23:09:34 +0000",
       "minecraft:warm_ocean": "2024-11-22 04:26:57 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-11-22 04:26:20 +0000",
@@ -2358,12 +2360,14 @@
       "minecraft:piglin_brute": "2024-12-12 02:21:47 +0000",
       "minecraft:creeper": "2024-11-22 19:16:29 +0000",
       "minecraft:slime": "2024-11-25 22:18:28 +0000",
+      "minecraft:evoker": "2024-12-19 15:32:53 +0000",
       "minecraft:zombified_piglin": "2024-12-11 20:40:32 +0000",
       "minecraft:witch": "2024-11-25 22:54:43 +0000",
       "minecraft:wither_skeleton": "2024-11-20 20:35:07 +0000",
       "minecraft:husk": "2024-11-22 21:09:16 +0000",
       "minecraft:piglin": "2024-12-08 23:59:17 +0000",
       "minecraft:enderman": "2024-11-21 20:17:30 +0000",
+      "minecraft:vex": "2024-12-19 15:29:59 +0000",
       "minecraft:zombie": "2024-11-19 02:00:54 +0000",
       "minecraft:drowned": "2024-11-21 20:59:08 +0000",
       "minecraft:zombie_villager": "2024-11-29 18:42:14 +0000"
@@ -12691,9 +12695,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/decorations/spruce_cabinet": {
+  "takesapillage:bastille": {
     "criteria": {
-      "has_spruce_trapdoor": "2024-12-19 14:44:15 +0000"
+      "in_bastille": "2024-12-19 14:36:59 +0000"
     },
     "done": true
   },
@@ -12703,9 +12707,9 @@
     },
     "done": true
   },
-  "takesapillage:bastille": {
+  "farmersdelight:recipes/decorations/spruce_cabinet": {
     "criteria": {
-      "in_bastille": "2024-12-19 14:36:59 +0000"
+      "has_spruce_trapdoor": "2024-12-19 14:44:15 +0000"
     },
     "done": true
   },
