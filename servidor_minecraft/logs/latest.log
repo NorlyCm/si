@@ -3319,3 +3319,9 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [19Dec2024 23:12:42.839] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! -4.709224695547901,-0.41999998688697815,8.990238656397842
 [19Dec2024 23:12:42.873] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3029ms or 60 ticks behind
 [19Dec2024 23:13:57.366] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[19Dec2024 23:21:49.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved wrongly!
+[19Dec2024 23:24:36.437] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! -0.03729928367589963,-10.867409983895072,0.08229842137973264
+[19Dec2024 23:24:38.027] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for CupcakeSpace with unique ID b6ddab08-f5dd-41d9-9e99-08145bc9ae83
+[19Dec2024 23:24:38.030] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: -47 Y: 40 Z: -87
+[19Dec2024 23:24:38.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace fell from a high place
+[19Dec2024 23:24:48.337] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
