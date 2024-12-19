@@ -3349,3 +3349,6 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [19Dec2024 14:59:02.108] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 lost connection: Disconnected
 [19Dec2024 14:59:02.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 left the game
 [19Dec2024 14:59:02.157] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[19Dec2024 15:14:19.543] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joyxjx3[/172.26.184.143:57168] logged in with entity id 15808 at (92.0288747084278, 101.0, 444.0625454431027)
+[19Dec2024 15:14:19.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 joined the game
+[19Dec2024 15:14:19.638] [Server thread/INFO] [Jade/]: Syncing config to joyxjx3 (478f4759-0f9a-3444-97f3-c04e994ddc5c)
