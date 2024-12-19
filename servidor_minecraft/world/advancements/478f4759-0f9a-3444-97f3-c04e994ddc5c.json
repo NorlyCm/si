@@ -12926,12 +12926,6 @@
     },
     "done": true
   },
-  "ars_nouveau:archmage_spell_book": {
-    "criteria": {
-      "has_archmage_spell_book": "2024-12-19 18:45:48 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/beacon": {
     "criteria": {
       "has_nether_star": "2024-12-19 18:43:39 +0000"
@@ -12941,6 +12935,12 @@
   "aether:recipes/tools/netherite_axe_repairing": {
     "criteria": {
       "has_netherite_axe": "2024-12-19 18:43:45 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:archmage_spell_book": {
+    "criteria": {
+      "has_archmage_spell_book": "2024-12-19 18:45:48 +0000"
     },
     "done": true
   },
