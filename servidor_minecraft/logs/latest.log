@@ -3293,3 +3293,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [19Dec2024 15:58:14.952] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5627ms or 112 ticks behind
 [19Dec2024 16:13:17.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 has reached the goal [Reach For The Sea-Stars!]
 [19Dec2024 16:23:08.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 has completed the challenge [Hot Tourist Destinations]
+[19Dec2024 17:00:00.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 was shot by a skull from Wither
+[19Dec2024 17:01:22.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 fell from a high place
