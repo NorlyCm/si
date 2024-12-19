@@ -12719,6 +12719,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/bisque": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-19 16:13:17 +0000"
+    },
+    "done": true
+  },
   "create_dd:recipes/create_dd.palettes/small_amethyst_block_brick_wall_from_stone_types_amethyst_block_stonecutting": {
     "criteria": {
       "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
@@ -12746,6 +12752,18 @@
   "create_dd:recipes/create_dd.palettes/polished_cut_amethyst_block_from_stone_types_amethyst_block_stonecutting": {
     "criteria": {
       "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/crab_cakes": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-19 16:13:17 +0000"
+    },
+    "done": true
+  },
+  "crabbersdelight:main/reach_for_the_sea_stars": {
+    "criteria": {
+      "crab_claw": "2024-12-19 16:13:17 +0000"
     },
     "done": true
   },
@@ -12818,6 +12836,18 @@
   "create_dd:recipes/building_blocks/amethyst_block_from_stone_types_amethyst_block_stonecutting": {
     "criteria": {
       "has_stone_types_amethyst_block": "2024-12-19 16:02:12 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cooked_crab": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-19 16:13:17 +0000"
+    },
+    "done": true
+  },
+  "crabbersdelight:recipes/building_blocks/crab_barrel": {
+    "criteria": {
+      "has_crab": "2024-12-19 16:13:17 +0000"
     },
     "done": true
   },
