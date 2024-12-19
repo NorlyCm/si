@@ -2353,6 +2353,7 @@
       "minecraft:blaze": "2024-11-20 20:57:33 +0000",
       "minecraft:pillager": "2024-11-29 17:04:14 +0000",
       "minecraft:skeleton": "2024-11-19 01:37:17 +0000",
+      "minecraft:ghast": "2024-12-19 16:30:30 +0000",
       "minecraft:hoglin": "2024-12-11 20:40:55 +0000",
       "minecraft:vindicator": "2024-11-29 18:39:02 +0000",
       "minecraft:magma_cube": "2024-12-02 20:21:04 +0000",
@@ -12723,6 +12724,12 @@
   "farmersdelight:recipes/cooking/bisque": {
     "criteria": {
       "has_any_ingredient": "2024-12-19 16:13:17 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/ghast": {
+    "criteria": {
+      "has_ghast_tear": "2024-12-19 16:30:33 +0000"
     },
     "done": true
   },
