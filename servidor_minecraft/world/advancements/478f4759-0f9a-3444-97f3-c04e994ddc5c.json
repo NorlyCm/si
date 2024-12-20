@@ -12944,6 +12944,12 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/appliances/attribute_filter_clear": {
+    "criteria": {
+      "has_item": "2024-12-19 23:24:45 +0000"
+    },
+    "done": true
+  },
   "createdeco:recipes/decorations/yellow_placard_from_dyeing": {
     "criteria": {
       "has_item": "2024-12-19 23:24:46 +0000"
@@ -12956,39 +12962,9 @@
     },
     "done": true
   },
-  "create_connected:recipes/crafting/kinetics/fluid_vessel_from_conversion": {
-    "criteria": {
-      "has_item": "2024-12-19 23:25:59 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/train_trapdoor": {
-    "criteria": {
-      "has_item": "2024-12-19 23:24:57 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/netherite_gloves_repairing": {
-    "criteria": {
-      "has_netherite_gloves": "2024-12-19 23:25:13 +0000"
-    },
-    "done": true
-  },
   "createdeco:recipes/decorations/orange_placard_from_dyeing": {
     "criteria": {
       "has_item": "2024-12-19 23:24:46 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/track_signal": {
-    "criteria": {
-      "has_item": "2024-12-19 23:24:57 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/controls": {
-    "criteria": {
-      "has_item": "2024-12-19 23:24:57 +0000"
     },
     "done": true
   },
@@ -13004,15 +12980,21 @@
     },
     "done": true
   },
-  "create:track_0": {
+  "createdeco:recipes/decorations/magenta_placard_from_dyeing": {
     "criteria": {
-      "0": "2024-12-19 23:25:14 +0000"
+      "has_item": "2024-12-19 23:24:46 +0000"
     },
     "done": true
   },
-  "aether:recipes/combat/netherite_boots_repairing": {
+  "createdeco:recipes/decorations/pink_placard_from_dyeing": {
     "criteria": {
-      "has_netherite_boots": "2024-12-19 23:26:00 +0000"
+      "has_item": "2024-12-19 23:24:46 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/lime_placard_from_dyeing": {
+    "criteria": {
+      "has_item": "2024-12-19 23:24:46 +0000"
     },
     "done": true
   },
@@ -13022,33 +13004,27 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/track_observer": {
+  "create:recipes/misc/crafting/kinetics/train_trapdoor": {
     "criteria": {
       "has_item": "2024-12-19 23:24:57 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/appliances/attribute_filter_clear": {
+  "create:recipes/misc/crafting/kinetics/track_signal": {
     "criteria": {
-      "has_item": "2024-12-19 23:24:45 +0000"
+      "has_item": "2024-12-19 23:24:57 +0000"
     },
     "done": true
   },
-  "createdeco:recipes/decorations/magenta_placard_from_dyeing": {
+  "create:recipes/misc/crafting/kinetics/controls": {
     "criteria": {
-      "has_item": "2024-12-19 23:24:46 +0000"
+      "has_item": "2024-12-19 23:24:57 +0000"
     },
     "done": true
   },
-  "railways:recipes/misc/crafting/fuel_tank": {
+  "create:recipes/misc/crafting/kinetics/track_observer": {
     "criteria": {
-      "has_item": "2024-12-19 23:25:59 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/netherite_leggings_repairing": {
-    "criteria": {
-      "has_netherite_leggings": "2024-12-19 23:25:14 +0000"
+      "has_item": "2024-12-19 23:24:57 +0000"
     },
     "done": true
   },
@@ -13064,27 +13040,9 @@
     },
     "done": true
   },
-  "createdeco:recipes/decorations/pink_placard_from_dyeing": {
-    "criteria": {
-      "has_item": "2024-12-19 23:24:46 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/train_door": {
     "criteria": {
       "has_item": "2024-12-19 23:24:57 +0000"
-    },
-    "done": true
-  },
-  "create_dd:recipes/create_dd.base/fluid_reservoir_from_fluid_tank_stonecutting": {
-    "criteria": {
-      "has_fluid_tank": "2024-12-19 23:25:59 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/combat/crafting/appliances/netherite_diving_boots_from_netherite": {
-    "criteria": {
-      "has_item": "2024-12-19 23:26:00 +0000"
     },
     "done": true
   },
@@ -13094,9 +13052,51 @@
     },
     "done": true
   },
-  "createdeco:recipes/decorations/lime_placard_from_dyeing": {
+  "aether:recipes/combat/netherite_gloves_repairing": {
     "criteria": {
-      "has_item": "2024-12-19 23:24:46 +0000"
+      "has_netherite_gloves": "2024-12-19 23:25:13 +0000"
+    },
+    "done": true
+  },
+  "create:track_0": {
+    "criteria": {
+      "0": "2024-12-19 23:25:14 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_leggings_repairing": {
+    "criteria": {
+      "has_netherite_leggings": "2024-12-19 23:25:14 +0000"
+    },
+    "done": true
+  },
+  "create_connected:recipes/crafting/kinetics/fluid_vessel_from_conversion": {
+    "criteria": {
+      "has_item": "2024-12-19 23:25:59 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/fuel_tank": {
+    "criteria": {
+      "has_item": "2024-12-19 23:25:59 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.base/fluid_reservoir_from_fluid_tank_stonecutting": {
+    "criteria": {
+      "has_fluid_tank": "2024-12-19 23:25:59 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_boots_repairing": {
+    "criteria": {
+      "has_netherite_boots": "2024-12-19 23:26:00 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_boots_from_netherite": {
+    "criteria": {
+      "has_item": "2024-12-19 23:26:00 +0000"
     },
     "done": true
   },
