@@ -2363,6 +2363,7 @@
       "minecraft:wither": "2024-12-19 18:44:51 +0000",
       "minecraft:slime": "2024-11-25 22:18:28 +0000",
       "minecraft:evoker": "2024-12-19 15:32:53 +0000",
+      "minecraft:phantom": "2024-12-20 22:00:16 +0000",
       "minecraft:zombified_piglin": "2024-12-11 20:40:32 +0000",
       "minecraft:witch": "2024-11-25 22:54:43 +0000",
       "minecraft:wither_skeleton": "2024-11-20 20:35:07 +0000",
@@ -11260,6 +11261,7 @@
   },
   "deeperdarker:main/kill_all_sculk_mobs": {
     "criteria": {
+      "phantom": "2024-12-20 22:00:16 +0000",
       "warden": "2024-12-10 16:19:40 +0000"
     },
     "done": false
