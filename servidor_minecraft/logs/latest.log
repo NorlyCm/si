@@ -3308,3 +3308,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [20Dec2024 22:20:40.140] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved wrongly!
 [20Dec2024 22:20:41.594] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved wrongly!
 [20Dec2024 22:20:41.746] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved wrongly!
+[20Dec2024 22:28:36.838] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 lost connection: Disconnected
+[20Dec2024 22:28:36.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 left the game
