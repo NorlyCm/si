@@ -2368,6 +2368,7 @@
       "minecraft:witch": "2024-11-25 22:54:43 +0000",
       "minecraft:wither_skeleton": "2024-11-20 20:35:07 +0000",
       "minecraft:husk": "2024-11-22 21:09:16 +0000",
+      "minecraft:cave_spider": "2024-12-22 02:32:33 +0000",
       "minecraft:piglin": "2024-12-08 23:59:17 +0000",
       "minecraft:enderman": "2024-11-21 20:17:30 +0000",
       "minecraft:vex": "2024-12-19 15:29:59 +0000",
@@ -7847,9 +7848,10 @@
     "criteria": {
       "in_better_zombie_dungeon": "2024-11-24 01:48:48 +0000",
       "in_better_monster_room": "2024-12-03 20:14:14 +0000",
+      "in_better_spider_dungeon": "2024-12-22 02:32:12 +0000",
       "in_better_skeleton_dungeon": "2024-12-17 15:50:41 +0000"
     },
-    "done": false
+    "done": true
   },
   "betterdungeons:zombie_dungeon": {
     "criteria": {
@@ -13109,12 +13111,6 @@
     },
     "done": true
   },
-  "twilightforest:magic_map_focus": {
-    "criteria": {
-      "focus": "2024-12-22 02:13:52 +0000"
-    },
-    "done": true
-  },
   "twilightforest:recipes/misc/magic_map_focus": {
     "criteria": {
       "has_feather": "2024-12-22 02:07:20 +0000"
@@ -13127,15 +13123,27 @@
     },
     "done": true
   },
+  "twilightforest:recipes/decorations/berry_torch": {
+    "criteria": {
+      "has_item": "2024-12-22 02:08:36 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:magic_map_focus": {
+    "criteria": {
+      "focus": "2024-12-22 02:13:52 +0000"
+    },
+    "done": true
+  },
   "twilightforest:recipes/misc/magic_map": {
     "criteria": {
       "has_item": "2024-12-22 02:13:52 +0000"
     },
     "done": true
   },
-  "twilightforest:recipes/decorations/berry_torch": {
+  "betterdungeons:spider_dungeon": {
     "criteria": {
-      "has_item": "2024-12-22 02:08:36 +0000"
+      "in_better_spider_dungeon": "2024-12-22 02:32:12 +0000"
     },
     "done": true
   },
