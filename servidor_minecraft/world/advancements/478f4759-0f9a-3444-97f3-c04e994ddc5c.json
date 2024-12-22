@@ -9928,7 +9928,8 @@
   "twilightforest:arborist": {
     "criteria": {
       "twilight_oak_planks": "2024-11-29 16:40:35 +0000",
-      "twilight_oak_log": "2024-11-29 16:40:25 +0000"
+      "twilight_oak_log": "2024-11-29 16:40:25 +0000",
+      "liveroot": "2024-12-22 02:08:25 +0000"
     },
     "done": false
   },
@@ -13105,6 +13106,24 @@
   "farmersdelight:main/eat_comfort_food": {
     "criteria": {
       "comfort": "2024-12-20 21:38:13 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/magic_map_focus": {
+    "criteria": {
+      "has_feather": "2024-12-22 02:07:20 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/material/raw_ironwood": {
+    "criteria": {
+      "has_item": "2024-12-22 02:08:25 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/berry_torch": {
+    "criteria": {
+      "has_item": "2024-12-22 02:08:36 +0000"
     },
     "done": true
   },
