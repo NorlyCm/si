@@ -3322,3 +3322,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22Dec2024 03:28:26.696] [Worker-Main-18/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=20, y=47, z=-4}
 [22Dec2024 03:28:26.697] [Worker-Main-18/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=23, y=38, z=-4}
 [22Dec2024 03:28:26.697] [Worker-Main-18/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=26, y=38, z=-1}
+[22Dec2024 03:43:27.459] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 lost connection: Disconnected
+[22Dec2024 03:43:27.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 left the game
