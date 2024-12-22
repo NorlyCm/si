@@ -13109,6 +13109,12 @@
     },
     "done": true
   },
+  "twilightforest:magic_map_focus": {
+    "criteria": {
+      "focus": "2024-12-22 02:13:52 +0000"
+    },
+    "done": true
+  },
   "twilightforest:recipes/misc/magic_map_focus": {
     "criteria": {
       "has_feather": "2024-12-22 02:07:20 +0000"
@@ -13118,6 +13124,12 @@
   "twilightforest:recipes/misc/material/raw_ironwood": {
     "criteria": {
       "has_item": "2024-12-22 02:08:25 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/magic_map": {
+    "criteria": {
+      "has_item": "2024-12-22 02:13:52 +0000"
     },
     "done": true
   },

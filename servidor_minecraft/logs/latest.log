@@ -3303,3 +3303,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22Dec2024 02:03:58.224] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! -6.96674073761784,-5.831598187489888,-4.9604864410798655
 [22Dec2024 02:04:33.479] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
 [22Dec2024 02:05:56.903] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4502ms or 90 ticks behind
+[22Dec2024 02:13:52.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 has made the advancement [With Fire It Writes]
+[22Dec2024 02:14:56.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! -8.825393962690406,-4.239658659334523,3.2337057164591556
