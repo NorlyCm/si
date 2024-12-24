@@ -3317,3 +3317,13 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [24Dec2024 15:58:22.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 has made the advancement [The way of Air]
 [24Dec2024 16:00:04.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 has completed the challenge [Master of Air]
 [24Dec2024 16:01:18.492] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[24Dec2024 16:21:58.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 has made the advancement [Crustacean Cooking Station]
+[24Dec2024 16:22:16.383] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! -1.0538455947518983,8.786411832808056,7.292078633013716
+[24Dec2024 16:22:17.691] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2157ms or 43 ticks behind
+[24Dec2024 16:22:17.784] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! 0.5804772156789824,-11.646147934862597,7.880936537868024
+[24Dec2024 16:27:41.540] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! -14.039496909947644,4.540995273030063,-17.554935305401273
+[24Dec2024 16:27:46.565] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! -7.1645960252880165,-0.32946171610416286,-12.332714516667522
+[24Dec2024 16:27:52.909] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! -13.830299077307842,10.496789534930087,-17.737786761751465
+[24Dec2024 16:27:55.074] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
+[24Dec2024 16:27:59.591] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! 2.3617785726620752,6.694194628093726,-7.128717551718105
+[24Dec2024 16:28:03.982] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! 0.6545613008895259,-17.50195771545333,-0.8158799609891592
