@@ -13149,6 +13149,12 @@
     },
     "done": true
   },
+  "ars_elemental:lesser_air_focus": {
+    "criteria": {
+      "has_lesser_air_focus": "2024-12-24 15:58:22 +0000"
+    },
+    "done": true
+  },
   "ars_elemental:air_focus": {
     "criteria": {
       "has_air_focus": "2024-12-24 16:00:04 +0000"
@@ -13158,12 +13164,6 @@
   "crabbersdelight:main/cook_crustaceans": {
     "criteria": {
       "crab": "2024-12-24 16:21:58 +0000"
-    },
-    "done": true
-  },
-  "ars_elemental:lesser_air_focus": {
-    "criteria": {
-      "has_lesser_air_focus": "2024-12-24 15:58:22 +0000"
     },
     "done": true
   },
