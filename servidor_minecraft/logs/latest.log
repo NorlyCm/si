@@ -3303,3 +3303,10 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [26Dec2024 17:54:10.341] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! -16.291941229837903,0.7501757610872346,-0.23967952001578396
 [26Dec2024 17:54:13.906] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! -13.70748328162449,1.0678391101013176,16.279253463382815
 [26Dec2024 17:54:40.957] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2054ms or 41 ticks behind
+[26Dec2024 18:01:22.012] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 lost connection: Disconnected
+[26Dec2024 18:01:22.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 left the game
+[26Dec2024 18:01:36.300] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joyxjx3[/172.26.184.143:59477] logged in with entity id 5278 at (-1674.300000011921, 17.0, -795.6608986562909)
+[26Dec2024 18:01:36.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joyxjx3 joined the game
+[26Dec2024 18:01:36.541] [Server thread/INFO] [Jade/]: Syncing config to joyxjx3 (478f4759-0f9a-3444-97f3-c04e994ddc5c)
+[26Dec2024 18:02:34.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [joyxjx3: Set own game mode to Creative Mode]
+[26Dec2024 18:02:51.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [joyxjx3: Set own game mode to Survival Mode]
