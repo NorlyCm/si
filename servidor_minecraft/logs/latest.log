@@ -3304,3 +3304,9 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [27Dec2024 21:47:24.644] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from interface com.hollingsworth.arsnouveau.common.entity.IFollowingSummon
 [27Dec2024 21:51:46.247] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! -0.1617599472750726,11.335816948372251,2.7272308459640726
 [27Dec2024 21:52:20.400] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! -13.857534287093245,4.4136778878074026,0.18568383790466214
+[27Dec2024 22:16:08.621] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! 1.9052321672936614,-9.994474403958321,0.10228409872490829
+[27Dec2024 22:16:08.622] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 2.2406646267163524,-11.779275633896276,-0.280182006748646
+[27Dec2024 22:16:13.469] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 1.9347867268747905,-10.337224750722896,-0.7590003018648304
+[27Dec2024 22:16:13.471] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! 1.6518983203598054,-10.295857573358148,0.6488465998721722
+[27Dec2024 22:16:33.544] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! 8.961005286403633,6.5510574950576625,0.4810796107285569
+[27Dec2024 22:16:33.547] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 8.650526185069566,-1.4381325337837723,5.488208045955616
