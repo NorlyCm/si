@@ -3291,3 +3291,16 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [27Dec2024 21:18:24.398] [Server thread/INFO] [Jade/]: Syncing config to joyxjx3 (478f4759-0f9a-3444-97f3-c04e994ddc5c)
 [27Dec2024 21:18:26.004] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2248ms or 44 ticks behind
 [27Dec2024 21:18:48.299] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7342ms or 146 ticks behind
+[27Dec2024 21:27:40.835] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CupcakeSpace[/172.26.14.178:53461] logged in with entity id 1957 at (5.784525322521751, 81.6242811215574, 471.154094568714)
+[27Dec2024 21:27:40.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CupcakeSpace joined the game
+[27Dec2024 21:27:41.172] [Server thread/INFO] [Jade/]: Syncing config to CupcakeSpace (f927ae7e-fba2-341b-9c45-47797bdc6c29)
+[27Dec2024 21:37:30.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 3.3280810050925993,9.77246456471822,-2.2185821436433883
+[27Dec2024 21:39:06.598] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! -7.337039864540543,-7.918297368696514,6.724695788630811
+[27Dec2024 21:39:08.275] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[27Dec2024 21:41:14.492] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joyxjx3 moved too quickly! -3.226247120395982,-2.0311525452141552,10.6337323216095
+[27Dec2024 21:44:22.600] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 0.33368118594819407,-11.87319593121019,-1.657247869394098
+[27Dec2024 21:44:23.885] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! 0.20327841979434425,10.527596255975183,-7.998039173058885
+[27Dec2024 21:47:15.782] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[27Dec2024 21:47:24.644] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from interface com.hollingsworth.arsnouveau.common.entity.IFollowingSummon
+[27Dec2024 21:51:46.247] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! -0.1617599472750726,11.335816948372251,2.7272308459640726
+[27Dec2024 21:52:20.400] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CupcakeSpace moved too quickly! -13.857534287093245,4.4136778878074026,0.18568383790466214

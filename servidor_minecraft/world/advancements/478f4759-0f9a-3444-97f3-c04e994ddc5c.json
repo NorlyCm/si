@@ -13167,5 +13167,59 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2024-12-27 21:48:32 +0000"
+    },
+    "done": true
+  },
+  "create_connected:recipes/crafting/kinetics/fluid_vessel": {
+    "criteria": {
+      "has_item": "2024-12-27 21:45:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-12-27 22:07:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2024-12-27 22:07:36 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_tank": {
+    "criteria": {
+      "has_item": "2024-12-27 21:45:50 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.base/crafting/kinetics/fluid_reservoir": {
+    "criteria": {
+      "has_barrel": "2024-12-27 21:45:50 +0000"
+    },
+    "done": true
+  },
+  "create_dd:recipes/create_dd.base/crafting/kinetics/item_stockpile": {
+    "criteria": {
+      "has_barrel": "2024-12-27 21:45:50 +0000"
+    },
+    "done": true
+  },
+  "create_connected:recipes/crafting/kinetics/item_silo": {
+    "criteria": {
+      "has_item": "2024-12-27 21:45:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/item_vault": {
+    "criteria": {
+      "has_item": "2024-12-27 21:45:50 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
