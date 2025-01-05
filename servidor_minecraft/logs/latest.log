@@ -2329,3 +2329,961 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[05Jan2025 21:18:18.259] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:beetroot_soup from minecraft:recipes/beetroot_soup.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:18.388] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file renewable_stones:cobbled_deepslate from renewable_stones:recipes/cobbled_deepslate.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 17 column 6 path $.results[0].item
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 17 column 6 path $.results[0].item
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:514) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:18.419] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file create:compacting/rock_candys/blocks/chiseled_red_rock from create:recipes/compacting/rock_candys/blocks/chiseled_red_rock.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:18.796] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file create_wt:dependencies/blue_skies/charoite_pickaxe from create_wt:recipes/dependencies/blue_skies/charoite_pickaxe.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 7 column 37 path $.minecraft:crafting_shapeless
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected ':' at line 7 column 37 path $.minecraft:crafting_shapeless
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:539) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:786) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:19.213] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:mushroom_stew from minecraft:recipes/mushroom_stew.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:19.215] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file renewable_stones:netherack from renewable_stones:recipes/netherack.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 22 column 6 path $.ingredients[6]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 22 column 6 path $.ingredients[6]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:485) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:19.282] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:rabbit_stew_from_brown_mushroom from minecraft:recipes/rabbit_stew_from_brown_mushroom.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:19.286] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:rabbit_stew_from_red_mushroom from minecraft:recipes/rabbit_stew_from_red_mushroom.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:24.258] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:beetroot_soup from minecraft:recipes/beetroot_soup.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:24.280] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file renewable_stones:cobbled_deepslate from renewable_stones:recipes/cobbled_deepslate.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 17 column 6 path $.results[0].item
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 17 column 6 path $.results[0].item
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:514) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:24.291] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file create:compacting/rock_candys/blocks/chiseled_red_rock from create:recipes/compacting/rock_candys/blocks/chiseled_red_rock.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:24.497] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file create_wt:dependencies/blue_skies/charoite_pickaxe from create_wt:recipes/dependencies/blue_skies/charoite_pickaxe.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 7 column 37 path $.minecraft:crafting_shapeless
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected ':' at line 7 column 37 path $.minecraft:crafting_shapeless
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:539) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:786) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:24.964] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:mushroom_stew from minecraft:recipes/mushroom_stew.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:24.973] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file renewable_stones:netherack from renewable_stones:recipes/netherack.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 22 column 6 path $.ingredients[6]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 22 column 6 path $.ingredients[6]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:485) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:25.043] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:rabbit_stew_from_brown_mushroom from minecraft:recipes/rabbit_stew_from_brown_mushroom.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:25.050] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:rabbit_stew_from_red_mushroom from minecraft:recipes/rabbit_stew_from_red_mushroom.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	... 13 more
+[05Jan2025 21:18:26.737] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/knightmetal_ingot recipe (vintageimprovements:rolling/knightmetal_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:26.772] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:gragolit_ingot: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:clear_dragolit_nugget'
+[05Jan2025 21:18:26.788] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/ironwood_plate recipe (vintageimprovements:rolling/ironwood_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:26.789] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/zinc/ingot) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:26.804] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/cast_iron_ingot recipe (vintageimprovements:rolling/cast_iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:26.813] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/gold/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:26.853] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/alloyed/steel/steel_shovel as it's serializer returned null
+[05Jan2025 21:18:26.854] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/bronze_plate recipe (vintageimprovements:rolling/bronze_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:26.873] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/chocolate_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
+[05Jan2025 21:18:26.920] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:ring_supply_charged: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:ring_supply_discharged'
+[05Jan2025 21:18:26.950] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_catwalk as it's serializer returned null
+[05Jan2025 21:18:27.021] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/manyullyn_plate recipe (vintageimprovements:rolling/manyullyn_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:27.059] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe molten_metals:mixing/molten_bronze_from_nugget: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:bronze_nugget'
+[05Jan2025 21:18:27.061] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/epic_party_light_bulb: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:epic_party_light_bulb'
+[05Jan2025 21:18:27.062] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/nickel/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.062] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/chorus_fruit_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
+[05Jan2025 21:18:27.063] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/iron/dirty_dust) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.064] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:hat_in_jam: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:glowing_jam'
+[05Jan2025 21:18:27.065] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/white_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:27.066] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:27.066] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/apple_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
+[05Jan2025 21:18:27.076] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:27.077] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/brass/ingot) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.083] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/invar/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.084] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_sign: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_planks'
+[05Jan2025 21:18:27.100] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/vanadium_plate recipe (vintageimprovements:rolling/vanadium_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:27.101] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_create_dd_smoked_narrow: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:smoked_slab'
+[05Jan2025 21:18:27.102] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/copper/hoe as it's serializer returned null
+[05Jan2025 21:18:27.104] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:27.106] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/silver/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.153] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/steel/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.177] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step_from_conversion as it's serializer returned null
+[05Jan2025 21:18:27.188] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/aluminum/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.204] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:27.221] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/brass_plate recipe (vintageimprovements:rolling/brass_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:27.222] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_create_dd_rose_wide: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:rose_slab'
+[05Jan2025 21:18:27.222] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/zinc/shovel as it's serializer returned null
+[05Jan2025 21:18:27.230] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/tungsten/nugget) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.256] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/invar_plate recipe (vintageimprovements:rolling/invar_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:27.268] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[05Jan2025 21:18:27.283] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/enderium_plate recipe (vintageimprovements:rolling/enderium_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:27.289] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:27.293] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/diopside_shovel: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:diopside_shovel'
+[05Jan2025 21:18:27.297] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:industrial_blasting recipe (tfmg:industrial_blasting/steel) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:27.307] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/brass/axe as it's serializer returned null
+[05Jan2025 21:18:27.312] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/desh/hoe as it's serializer returned null
+[05Jan2025 21:18:27.322] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/copper/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.323] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/osmium/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.324] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe crabbersdelight:lanternfish_from_barrel: com.google.gson.JsonSyntaxException: Unknown item 'crabbersdelight:lanternfish_barrel'
+[05Jan2025 21:18:27.325] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:ring_supply_repare: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:ring_supply'
+[05Jan2025 21:18:27.328] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/tungsten/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.332] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersrespite:filling/water_cup: com.google.gson.JsonSyntaxException: Unknown item 'miners_delight:copper_cup'
+[05Jan2025 21:18:27.356] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/amethyst_bronze_plate recipe (vintageimprovements:rolling/amethyst_bronze_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:27.358] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/platinum_plate recipe (vintageimprovements:rolling/platinum_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:27.380] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/iron/nugget) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.427] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/desh/shovel as it's serializer returned null
+[05Jan2025 21:18:27.438] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/netherite/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.465] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/nickel/ingot) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.467] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/life_link as it's serializer returned null
+[05Jan2025 21:18:27.474] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/iron/ingot) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.476] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_create_dd_spirit: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:spirit_slab'
+[05Jan2025 21:18:27.488] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:27.533] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:27.535] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:advanced_distillation'
+[05Jan2025 21:18:27.542] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/melon_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
+[05Jan2025 21:18:27.546] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_slab: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_planks'
+[05Jan2025 21:18:27.547] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_button: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_planks'
+[05Jan2025 21:18:27.556] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/apple_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
+[05Jan2025 21:18:27.571] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/iron/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.575] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/copper/dirty_dust) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.576] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/lead/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:27.581] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/entrhalled as it's serializer returned null
+[05Jan2025 21:18:27.613] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:27.620] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:27.678] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_create_dd_rose: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:rose_slab'
+[05Jan2025 21:18:27.981] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/netherite_rod recipe (vintageimprovements:rolling/netherite_rod) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.005] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_trapdoor: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_planks'
+[05Jan2025 21:18:28.024] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/black_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:28.032] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/aquite_pickaxe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:aquite_pickaxe'
+[05Jan2025 21:18:28.038] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/netherite/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.039] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/zinc/pickaxe as it's serializer returned null
+[05Jan2025 21:18:28.043] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/steel/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.088] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:28.094] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_gate as it's serializer returned null
+[05Jan2025 21:18:28.104] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/cyan_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:28.121] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/calorite/shovel as it's serializer returned null
+[05Jan2025 21:18:28.142] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/electrum) has more fluid inputs (2) than supported (0).
+[05Jan2025 21:18:28.149] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/electrum) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.150] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:polarizing recipe (tfmg:polarizing/magnetic_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.231] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/copper/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.272] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:28.296] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/constantan/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.302] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cooking/healing_dew: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:silveran'
+[05Jan2025 21:18:28.316] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/green_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:28.322] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/electrum/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.335] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:28.340] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/charoite_sword: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:charoite_sword'
+[05Jan2025 21:18:28.343] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_steps as it's serializer returned null
+[05Jan2025 21:18:28.344] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/berry_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
+[05Jan2025 21:18:28.348] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[05Jan2025 21:18:28.355] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_boat: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_planks'
+[05Jan2025 21:18:28.368] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/shadow_steel recipe (vintageimprovements:rolling/shadow_steel) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.369] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/pyrope_hoe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:pyrope_hoe'
+[05Jan2025 21:18:28.371] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/hepatizon_plate recipe (vintageimprovements:rolling/hepatizon_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.383] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/zinc/dust) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.401] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/charoite_shovel: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:charoite_shovel'
+[05Jan2025 21:18:28.470] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_beam as it's serializer returned null
+[05Jan2025 21:18:28.474] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/refined_obsidian_plate recipe (vintageimprovements:rolling/refined_obsidian_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.483] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createfood:farmersrespite/brewing/chorus_fruit_juice_bottle: com.google.gson.JsonParseException: No base fluid for brewing recipe
+[05Jan2025 21:18:28.487] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/zinc/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.511] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/andesite_alloy recipe (vintageimprovements:rolling/andesite_alloy) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.513] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/diopside_pickaxe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:diopside_pickaxe'
+[05Jan2025 21:18:28.519] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:dragolit_block: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:dragolit_ingot'
+[05Jan2025 21:18:28.519] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/brass/nugget) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.520] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/rhodium_plate recipe (vintageimprovements:rolling/rhodium_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.528] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/tungsten/ingot) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.528] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/refined_radiance_plate recipe (vintageimprovements:rolling/refined_radiance_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.528] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_create_dd_rose_narrow: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:rose_slab'
+[05Jan2025 21:18:28.530] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/palladium_plate recipe (vintageimprovements:rolling/palladium_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.537] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:mushroom_on_stick_from_smoking: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:mushroom_on_stick'
+[05Jan2025 21:18:28.546] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/vanadium_ingot recipe (vintageimprovements:rolling/vanadium_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.551] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/gold/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.602] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/tin/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.612] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/glass_cable_connector: com.google.gson.JsonSyntaxException: Pattern references symbol 'G' but it's not defined in the key
+[05Jan2025 21:18:28.614] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersrespite:emptying/water_cup: com.google.gson.JsonSyntaxException: Unknown item 'miners_delight:water_cup'
+[05Jan2025 21:18:28.616] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_wall as it's serializer returned null
+[05Jan2025 21:18:28.640] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/desh/sword as it's serializer returned null
+[05Jan2025 21:18:28.652] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/watery_grave as it's serializer returned null
+[05Jan2025 21:18:28.653] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/bronze/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.657] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/desh/axe as it's serializer returned null
+[05Jan2025 21:18:28.670] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/orange_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:28.679] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_wood: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_log'
+[05Jan2025 21:18:28.692] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/glow_berry_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
+[05Jan2025 21:18:28.695] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.720] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/lumium_plate recipe (vintageimprovements:rolling/lumium_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.722] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_create_dd_smoked_wide: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:smoked_slab'
+[05Jan2025 21:18:28.725] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:28.774] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createdieselgenerators:smithing/chemical_sprayer_lighter: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+[05Jan2025 21:18:28.775] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/cobalt_plate recipe (vintageimprovements:rolling/cobalt_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.792] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/void_steel) has more fluid inputs (1) than supported (0).
+[05Jan2025 21:18:28.800] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/void_steel) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.823] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/copper/axe as it's serializer returned null
+[05Jan2025 21:18:28.823] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ratatouille:smoking/solid_sugar_block: com.google.gson.JsonSyntaxException: Unknown item 'ratatouille:sugar_block'
+[05Jan2025 21:18:28.826] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/electrum/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.834] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:goat_meat_kebab: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:pickled_shish_kebab'
+[05Jan2025 21:18:28.917] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/lead_ingot recipe (vintageimprovements:rolling/lead_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.930] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/bronze/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:28.940] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe crabbersdelight:lanternfish_barrel: com.google.gson.JsonSyntaxException: Unknown item 'sullysmod:lanternfish'
+[05Jan2025 21:18:28.978] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/rose_gold_plate recipe (vintageimprovements:rolling/rose_gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:28.985] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_stairs: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_planks'
+[05Jan2025 21:18:29.013] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/purple_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:29.014] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/silver_plate recipe (vintageimprovements:rolling/silver_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.016] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil_sus: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:advanced_distillation'
+[05Jan2025 21:18:29.026] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.060] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/aquite_shovel: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:aquite_shovel'
+[05Jan2025 21:18:29.061] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/netherite) has more item inputs (2) than supported (1).
+[05Jan2025 21:18:29.062] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/netherite) has more fluid inputs (1) than supported (0).
+[05Jan2025 21:18:29.062] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/netherite) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.081] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/mana_shield as it's serializer returned null
+[05Jan2025 21:18:29.082] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/zinc/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.091] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/alloyed/steel/steel_sword as it's serializer returned null
+[05Jan2025 21:18:29.108] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ratatouille:threshing/wool: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[05Jan2025 21:18:29.110] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_fence: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_planks'
+[05Jan2025 21:18:29.114] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_create_dd_rubber_narrow: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:rubber_slab'
+[05Jan2025 21:18:29.128] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/berry_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
+[05Jan2025 21:18:29.133] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/pyrope_axe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:pyrope_axe'
+[05Jan2025 21:18:29.133] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/silver/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.148] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/pure_gold_plate recipe (vintageimprovements:rolling/pure_gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.151] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/brass/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.154] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/chocolate_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
+[05Jan2025 21:18:29.154] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/tungsten/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.247] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/battery: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:battery'
+[05Jan2025 21:18:29.249] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/electrum/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.254] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/zinc/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.260] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/electrum/nugget) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.262] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/alloyed/steel/steel_pickaxe as it's serializer returned null
+[05Jan2025 21:18:29.264] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/fiery_plate recipe (vintageimprovements:rolling/fiery_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.280] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/zinc/hoe as it's serializer returned null
+[05Jan2025 21:18:29.334] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_create_dd_rubber_wide: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:rubber_slab'
+[05Jan2025 21:18:29.337] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/signalum_plate recipe (vintageimprovements:rolling/signalum_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.337] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[05Jan2025 21:18:29.338] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/pig_iron_plate recipe (vintageimprovements:rolling/pig_iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.339] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.339] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/copper/shovel as it's serializer returned null
+[05Jan2025 21:18:29.340] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:filling/chocolate_bagutte: com.google.gson.JsonSyntaxException: Unknown item 'createsweetsandtreets:bagutte'
+[05Jan2025 21:18:29.343] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:mag_elitra: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+[05Jan2025 21:18:29.365] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/ironwood_ingot recipe (vintageimprovements:rolling/ironwood_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.366] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/aquite_axe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:aquite_axe'
+[05Jan2025 21:18:29.395] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[05Jan2025 21:18:29.395] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/alloyed/steel/steel_hoe as it's serializer returned null
+[05Jan2025 21:18:29.396] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:29.397] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/zinc/dirty_dust) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.404] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/fiery_ingot recipe (vintageimprovements:rolling/fiery_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.421] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_planks: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_planks'
+[05Jan2025 21:18:29.427] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:29.435] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/nickel/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.436] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe design_decor:item_application/crushing_wheels/special_aluminum_cylinder: com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
+[05Jan2025 21:18:29.438] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.472] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/aluminum/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.475] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/brass/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.520] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_create_dd_rubber: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:rubber_slab'
+[05Jan2025 21:18:29.521] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ars_elemental:jeed/hellfire_burn as it's serializer returned null
+[05Jan2025 21:18:29.525] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:29.529] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cooking/soup_from_bear: com.google.gson.JsonSyntaxException: Unknown item 'wd:soup_from_bear'
+[05Jan2025 21:18:29.546] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:29.556] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/charoite_hoe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:charoite_hoe'
+[05Jan2025 21:18:29.556] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/tin_plate recipe (vintageimprovements:rolling/tin_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.564] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/amogus) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.565] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/lead/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.573] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/yellow_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:29.574] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/netherite/ingot) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.579] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/copper/ingot) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.583] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/invar) has more fluid inputs (2) than supported (0).
+[05Jan2025 21:18:29.584] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/invar) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.584] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/alloyed/steel/steel_axe as it's serializer returned null
+[05Jan2025 21:18:29.585] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_stairs as it's serializer returned null
+[05Jan2025 21:18:29.600] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/copper/nugget) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.604] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/aquite_hoe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:aquite_hoe'
+[05Jan2025 21:18:29.607] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/brass/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.608] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/desh/pickaxe as it's serializer returned null
+[05Jan2025 21:18:29.609] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/osmium_plate recipe (vintageimprovements:rolling/osmium_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.611] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/gold/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.612] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[05Jan2025 21:18:29.621] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/aluminum_ingot recipe (vintageimprovements:rolling/aluminum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.632] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/steel/pickaxe as it's serializer returned null
+[05Jan2025 21:18:29.646] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createfood:farmersrespite/brewing/glow_berry_juice_bottle: com.google.gson.JsonParseException: No base fluid for brewing recipe
+[05Jan2025 21:18:29.651] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:29.664] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_fence_gate: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_planks'
+[05Jan2025 21:18:29.674] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:clear_dragolit_nugget: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:dragolit_ingot'
+[05Jan2025 21:18:29.674] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick: com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
+[05Jan2025 21:18:29.679] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/magenta_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:29.680] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botany_pots:ars_elemental/flashing_archwood as it's serializer returned null
+[05Jan2025 21:18:29.680] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/iron/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.688] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe molten_metals:mixing/molten_steel_from_ingot: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:steel_ingot'
+[05Jan2025 21:18:29.702] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:dragolit_ingot_from_block: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:dragolit_block'
+[05Jan2025 21:18:29.711] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe molten_metals:mixing/molten_bronze_from_block: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:bronze_block'
+[05Jan2025 21:18:29.712] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/brass/pickaxe as it's serializer returned null
+[05Jan2025 21:18:29.712] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_door: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_planks'
+[05Jan2025 21:18:29.744] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.745] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:29.746] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/chorus_fruit_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
+[05Jan2025 21:18:29.767] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:29.777] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/steel_ingot recipe (vintageimprovements:rolling/steel_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.790] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_beams as it's serializer returned null
+[05Jan2025 21:18:29.795] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/horizonite_axe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:horizonite_axe'
+[05Jan2025 21:18:29.815] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe design_decor:item_application/millstones/special_aluminum_cylinder: com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
+[05Jan2025 21:18:29.821] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/iron/dust) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.823] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/refined_glowstone_plate recipe (vintageimprovements:rolling/refined_glowstone_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.829] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_create_dd_spirit_wide: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:spirit_slab'
+[05Jan2025 21:18:29.849] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/copper/sword as it's serializer returned null
+[05Jan2025 21:18:29.893] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/zinc/sword as it's serializer returned null
+[05Jan2025 21:18:29.904] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/zinc_ingot recipe (vintageimprovements:rolling/zinc_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.905] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/lead_plate recipe (vintageimprovements:rolling/lead_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:29.905] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/horizonite_sword: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:horizonite_sword'
+[05Jan2025 21:18:29.947] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/cotton_candy_stick_from_mixing_heated_cane_syrup) has more item inputs (10) than supported (9).
+[05Jan2025 21:18:29.952] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/lead/ingot) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:29.968] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createfood:farmersrespite/brewing/berry_juice_bottle: com.google.gson.JsonParseException: No base fluid for brewing recipe
+[05Jan2025 21:18:29.977] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/nickel_ingot recipe (vintageimprovements:rolling/nickel_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.020] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cooking/clear_dragolit_nugget: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:strange_scrap'
+[05Jan2025 21:18:30.020] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:robin_stick_repare: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:robin_stick'
+[05Jan2025 21:18:30.021] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/zinc/axe as it's serializer returned null
+[05Jan2025 21:18:30.021] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.031] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/silver/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.031] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[05Jan2025 21:18:30.032] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.037] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/diopside_hoe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:diopside_hoe'
+[05Jan2025 21:18:30.065] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/cast_iron_distillation_output: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_output'
+[05Jan2025 21:18:30.076] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/bronze/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.077] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/aluminum/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.083] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/calorite/axe as it's serializer returned null
+[05Jan2025 21:18:30.085] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/charoite_axe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:charoite_axe'
+[05Jan2025 21:18:30.101] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:ring_supply: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:dragolit_ingot'
+[05Jan2025 21:18:30.109] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:30.110] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_create_dd_spirit_narrow: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:spirit_slab'
+[05Jan2025 21:18:30.114] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/calorite/pickaxe as it's serializer returned null
+[05Jan2025 21:18:30.128] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/pyrope_pickaxe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:pyrope_pickaxe'
+[05Jan2025 21:18:30.133] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/brass/shovel as it's serializer returned null
+[05Jan2025 21:18:30.163] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block as it's serializer returned null
+[05Jan2025 21:18:30.165] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_board as it's serializer returned null
+[05Jan2025 21:18:30.166] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/steel) has more fluid inputs (1) than supported (0).
+[05Jan2025 21:18:30.172] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/steel) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.176] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe molten_metals:mixing/molten_bronze_from_ingot: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:bronze_ingot'
+[05Jan2025 21:18:30.184] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/steel/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.188] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/copper/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.195] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/steel/hoe as it's serializer returned null
+[05Jan2025 21:18:30.201] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/horizonite_shovel: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:horizonite_shovel'
+[05Jan2025 21:18:30.202] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/netherite/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.208] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/horizonite_pickaxe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:horizonite_pickaxe'
+[05Jan2025 21:18:30.212] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence as it's serializer returned null
+[05Jan2025 21:18:30.241] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:not_pickled_shish_kebab: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:raw_slising_goats_meat'
+[05Jan2025 21:18:30.259] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/constantan/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.263] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/steel/shovel as it's serializer returned null
+[05Jan2025 21:18:30.264] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/brass) has more fluid inputs (2) than supported (0).
+[05Jan2025 21:18:30.265] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/brass) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.267] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/copper/pickaxe as it's serializer returned null
+[05Jan2025 21:18:30.269] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/brass/hoe as it's serializer returned null
+[05Jan2025 21:18:30.271] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/invar/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.278] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_chest_boat: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_boat'
+[05Jan2025 21:18:30.279] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/melon_cream_frosting_fluid_from_mixing_alt) has more item inputs (12) than supported (9).
+[05Jan2025 21:18:30.292] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:spaga_dragolit: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:sparkling_pollen'
+[05Jan2025 21:18:30.296] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:30.303] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/gold/ingot) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.304] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/gold/nugget) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.310] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/brass/sword as it's serializer returned null
+[05Jan2025 21:18:30.331] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:dragolit_grid: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:dragolit_ingot'
+[05Jan2025 21:18:30.332] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersrespite:pouring/water_cup: com.google.gson.JsonSyntaxException: Unknown item 'miners_delight:copper_cup'
+[05Jan2025 21:18:30.333] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/calorite/sword as it's serializer returned null
+[05Jan2025 21:18:30.334] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/bronze) has more fluid inputs (2) than supported (0).
+[05Jan2025 21:18:30.338] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/bronze) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.340] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/diopside_sword: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:diopside_sword'
+[05Jan2025 21:18:30.352] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe molten_metals:mixing/molten_steel_from_nugget: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:steel_nugget'
+[05Jan2025 21:18:30.356] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:robin_stick: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:dragolit_ingot'
+[05Jan2025 21:18:30.368] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/red_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:30.372] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_create_dd_smoked: com.google.gson.JsonSyntaxException: Unknown item 'create_dd:smoked_slab'
+[05Jan2025 21:18:30.388] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:30.403] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/aluminum/ingot) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.404] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/cast_iron_distillation_controller: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_controller'
+[05Jan2025 21:18:30.456] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step as it's serializer returned null
+[05Jan2025 21:18:30.463] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/steel/sword as it's serializer returned null
+[05Jan2025 21:18:30.474] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/pyrope_sword: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:pyrope_sword'
+[05Jan2025 21:18:30.483] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/knightmetal_plate recipe (vintageimprovements:rolling/knightmetal_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.507] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/cast_iron_plate recipe (vintageimprovements:rolling/cast_iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.508] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/andesite_plate recipe (vintageimprovements:rolling/andesite_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.526] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[05Jan2025 21:18:30.527] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/aquite_sword: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:aquite_sword'
+[05Jan2025 21:18:30.528] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/gold/dust) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.528] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_box as it's serializer returned null
+[05Jan2025 21:18:30.529] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/brown_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:30.530] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab as it's serializer returned null
+[05Jan2025 21:18:30.530] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:freezing/powder_snow: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createsweetsandtreets:freezing'
+[05Jan2025 21:18:30.530] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:30.548] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/steel) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.549] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/zinc_plate recipe (vintageimprovements:rolling/zinc_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.550] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/refined_radiance recipe (vintageimprovements:rolling/refined_radiance) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.567] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/aluminum_plate recipe (vintageimprovements:rolling/aluminum_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.567] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/tin/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.591] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/lead/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.593] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.594] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/nickel_plate recipe (vintageimprovements:rolling/nickel_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.597] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/uranium_plate recipe (vintageimprovements:rolling/uranium_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.601] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/nickel/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.601] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/calorite/hoe as it's serializer returned null
+[05Jan2025 21:18:30.608] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/lime_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:30.608] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:coking recipe (tfmg:coking/coal_coke) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.633] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/welding_machine: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:welding_machine'
+[05Jan2025 21:18:30.634] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/constantan/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.635] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/steel_plate recipe (vintageimprovements:rolling/steel_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.646] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/zinc/nugget) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.647] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:cocked_goat_meat_kebab_campfire: com.google.gson.JsonSyntaxException: Unknown item 'wd:goat_meat_kebab'
+[05Jan2025 21:18:30.647] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/pyrope_shovel: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:pyrope_shovel'
+[05Jan2025 21:18:30.647] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/gold/dirty_dust) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.648] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/shadow_steel_plate recipe (vintageimprovements:rolling/shadow_steel_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.648] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/horizonite_hoe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:horizonite_hoe'
+[05Jan2025 21:18:30.659] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/netherite_plate recipe (vintageimprovements:rolling/netherite_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.660] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_wt:dependencies/blue_skies/diopside_axe: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:diopside_axe'
+[05Jan2025 21:18:30.661] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:mushroom_on_stick_from_campfire: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:mushroom_on_stick'
+[05Jan2025 21:18:30.662] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/pumpjack_hammer_holder: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:pumpjack_hammer_holder'
+[05Jan2025 21:18:30.689] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_panels as it's serializer returned null
+[05Jan2025 21:18:30.691] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/copper/dust) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.698] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/osmium/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.701] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:apple_pressure_plate: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:apple_planks'
+[05Jan2025 21:18:30.703] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[05Jan2025 21:18:30.704] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:compat/createaddition/tungsten_wire_spool recipe (createmetallurgy:compat/createaddition/tungsten_wire_spool) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.711] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_wt:dependencies/cp_tweaks/tools/steel/axe as it's serializer returned null
+[05Jan2025 21:18:30.713] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createfood:farmersrespite/brewing/apple_juice_bottle: com.google.gson.JsonParseException: No base fluid for brewing recipe
+[05Jan2025 21:18:30.714] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/iron/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.716] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/invar/plate) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.741] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createfood:create/mixing/glow_berry_cream_frosting_bucket_from_mixing_alt) has more item inputs (13) than supported (9).
+[05Jan2025 21:18:30.750] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_more_features:tt_1: com.google.gson.JsonParseException: Not a supported recipe type
+[05Jan2025 21:18:30.750] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/electrum/ingot) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.818] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:stripped_apple_wood: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:stripped_apple_log'
+[05Jan2025 21:18:30.833] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:30.864] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/osmium/wire) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.864] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/constantan) has more fluid inputs (2) than supported (0).
+[05Jan2025 21:18:30.865] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:alloying recipe (createmetallurgy:alloying/constantan) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.866] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block_from_slabs as it's serializer returned null
+[05Jan2025 21:18:30.887] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe culturaldelights:fermenting/pickle: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'brewinandchewin:fermenting'
+[05Jan2025 21:18:30.887] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wd:wd_spawner: com.google.gson.JsonSyntaxException: Unknown item 'wizardry_delight:dragolit_grid'
+[05Jan2025 21:18:30.887] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[05Jan2025 21:18:30.924] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/constantan_plate recipe (vintageimprovements:rolling/constantan_plate) specified a duration. Durations have no impact on this type of recipe.
+[05Jan2025 21:18:30.924] [main/WARN] [vectorwing.farmersdelight.FarmersDelight/]: Optional field 'recipe_book_tab' does not match any valid tab. If defined, must be one of the following: [meals, drinks, misc]
+[05Jan2025 21:18:30.925] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/wolframite/dust) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.936] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/steel/ingot) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.960] [main/WARN] [com.simibubi.create.Create/]: Your custom createmetallurgy:melting recipe (createmetallurgy:melting/tin/rod) has more fluid outputs (1) than supported (0).
+[05Jan2025 21:18:30.985] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 96 recipes
+[05Jan2025 21:18:31.365] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement create_central_kitchen:recipes/crafting/sap_bucket_from_bottles: Unknown item id 'autumnity:sap_bottle'
+[05Jan2025 21:18:31.439] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement farmersrespite:main/stunt_tea_bush: Invalid criterion trigger: farmersrespite:stunt_tea_bush
+[05Jan2025 21:18:31.765] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement create_central_kitchen:recipes/crafting/sap_bottles_from_bucket: Unknown item id 'create_central_kitchen:sap_bucket'
+[05Jan2025 21:18:31.967] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement createsweetsandtreets:brass_cookin: Expected item to be an item, was unknown string 'createsweetsandtreets:deleted_mod_element'
+[05Jan2025 21:18:32.140] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 8151 advancements
+[05Jan2025 21:18:32.181] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[05Jan2025 21:18:32.220] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 20 curio slots
+[05Jan2025 21:18:32.252] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[05Jan2025 21:18:32.285] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternatives'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23346!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23346!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23346!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[05Jan2025 21:18:32.301] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_leather - error: Unknown type 'minecraft:alternatives'
+[05Jan2025 21:18:32.302] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23346!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23346!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23346!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23341!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[05Jan2025 21:18:32.310] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_string - error: Unknown type 'minecraft:alternative'
+[05Jan2025 21:18:32.438] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: farmers_structures:is_quark_glimer_spawn, quark:has_fallen_jungle
+[05Jan2025 21:18:35.678] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[05Jan2025 21:18:35.678] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05Jan2025 21:18:35.679] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05Jan2025 21:18:35.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05Jan2025 21:18:36.742] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[05Jan2025 21:18:36.894] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[05Jan2025 21:18:36.968] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: req: https://broker.e4mc.link/getBestRelay GET
+[05Jan2025 21:18:37.076] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[05Jan2025 21:18:37.111] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05Jan2025 21:18:37.111] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[05Jan2025 21:18:37.111] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05Jan2025 21:18:37.111] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[05Jan2025 21:18:37.211] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[05Jan2025 21:18:37.544] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
+[05Jan2025 21:18:37.545] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: using relay na
+[05Jan2025 21:18:38.768] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[05Jan2025 21:18:39.338] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[05Jan2025 21:18:39.340] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[05Jan2025 21:18:39.599] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: control channel open: [id: 0x80fd8636, QuicStreamAddress{streamId=0}]
+[05Jan2025 21:18:39.600] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: control channel write complete
+[05Jan2025 21:18:39.682] [nioEventLoopGroup-2-1/WARN] [e4mc_minecraft/]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
+[05Jan2025 21:18:39.684] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: Domain assigned: hobby-piano.na.e4mc.link
+[05Jan2025 21:18:40.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05Jan2025 21:18:45.603] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:45.605] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:45.606] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:45.607] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:45.608] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:45.609] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:45.610] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:45.611] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:45.611] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:45.612] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:45.639] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:46.137] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:46.639] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:47.137] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jan2025 21:18:48.687] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8051 ms
+[05Jan2025 21:18:48.688] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.543s)! For help, type "help"
+[05Jan2025 21:18:48.929] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[05Jan2025 21:18:49.012] [Server thread/INFO] [com.mangomilk.design_decor.DesignDecor/]: :3
+[05Jan2025 21:18:49.016] [Server thread/INFO] [com.drmangotea.tfmg.CreateTFMG/]: YEEEHAAW
+[05Jan2025 21:18:49.037] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[05Jan2025 21:18:49.052] [Server thread/WARN] [ModernFix/]: Dedicated server took 914.772 seconds to load
